@@ -67,7 +67,8 @@ body {
 .sign-direction {
   background-color: #f5f5f5;
   color: #111111;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   padding: 2rem;
 }
 
