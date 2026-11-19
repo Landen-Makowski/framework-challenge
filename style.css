@@ -1,0 +1,78 @@
+body {
+  min-height: 100vh;
+}
+
+.sign {
+  min-height: 220px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.sign-exterior {
+  background: linear-gradient(135deg, #090018, #21002e);
+  border: 2px solid #ff3df2;
+}
+
+.sign-main {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+  text-shadow:
+    0 0 8px #ff3df2,
+    0 0 20px #ff3df2;
+}
+
+.sign-sub {
+  letter-spacing: 0.7rem;
+  color: #25e6ff;
+  text-shadow: 0 0 10px #25e6ff;
+}
+
+.sign-vip {
+  background-color: #111111;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+}
+
+.sign-vip span {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+
+.sign-vip small {
+  letter-spacing: 0.3rem;
+}
+
+.sign-lounge {
+  background: linear-gradient(135deg, #001421, #1b0033);
+  border: 2px solid #25e6ff;
+  color: #ff3df2;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 12px #ff3df2;
+}
+
+.sign-lounge span {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.6rem;
+  color: #25e6ff;
+}
+
+.sign-direction {
+  background-color: #f5f5f5;
+  color: #111111;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.sign-direction p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0.4rem 0;
+}
